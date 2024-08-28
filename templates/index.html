@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Drug Classification App</h1>
+        <p>This tool helps classify drugs based on patient attributes. Please enter the following details:</p>
+        <ul>
+            <li><strong>Age:</strong> Age of the patient in years.</li>
+            <li><strong>Sex:</strong> Gender of the patient (M or F).</li>
+            <li><strong>BP:</strong> Blood Pressure levels (LOW, NORMAL, HIGH).</li>
+            <li><strong>Cholesterol:</strong> Cholesterol levels (NORMAL, HIGH).</li>
+            <li><strong>Na_to_K:</strong> Sodium to Potassium ratio in the blood.</li>
+        </ul>
+        
+        <form action="/predict" method="post">
+            <input type="number" name="age" placeholder="Age" required>
+            <input type="text" name="sex" placeholder="Sex (M/F)" required>
+            <input type="text" name="bp" placeholder="Blood Pressure (LOW/NORMAL/HIGH)" required>
+            <input type="text" name="cholesterol" placeholder="Cholesterol (NORMAL/HIGH)" required>
+            <input type="number" step="any" name="na_to_k" placeholder="Na_to_K ratio" required>
+            <button type="submit">Classify Drug</button>
+        </form>
+    </div>
+</body>
+</html>
