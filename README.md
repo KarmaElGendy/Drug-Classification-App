@@ -29,17 +29,28 @@ The dataset used for training the model is available on Kaggle: [Drug Classifica
 ## Project Structure
 
 Drug-Classification-App/
+
 ├── images/
+
 │   └── Prediction.png
+
 ├── static/
 │   └── styles.css
+
 ├── templates/
+
 │   ├── index.html
+
 │   └── result.html
+
 ├── app.py
+
 ├── feature_coefficients.pkl
+
 ├── model.pkl
+
 ├── README.md
+
 └── requirements.txt
 
 
