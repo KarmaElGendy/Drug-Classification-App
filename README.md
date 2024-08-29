@@ -1,8 +1,6 @@
 # Drug-Classification-App
 This tool helps classify drugs based on patient attributes. 
 
-# Drug Classification App
-
 ![Prediction](https://github.com/KarmaElGendy/Drug-Classification-App/blob/main/images/Prediction.png)
 ![Result](https://github.com/KarmaElGendy/Drug-Classification-App/blob/main/images/Result.png)
 
