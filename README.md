@@ -28,12 +28,20 @@ The dataset used for training the model is available on Kaggle: [Drug Classifica
 
 ## Project Structure
 
-- **app.py**: The main Flask application file.
-- **model.pkl**: Pickle file containing the trained Logistic Regression model.
-- **feature_coefficients.pkl**: Pickle file with feature coefficients used in the model.
-- **templates/**: Folder containing HTML templates for the application.
-- **static/**: Folder containing static files like CSS.
-- **images/**: Folder containing images used in the application.
+Drug-Classification-App/
+├── images/
+│   └── Prediction.png
+├── static/
+│   └── styles.css
+├── templates/
+│   ├── index.html
+│   └── result.html
+├── app.py
+├── feature_coefficients.pkl
+├── model.pkl
+├── README.md
+└── requirements.txt
+
 
 ## Usage
 
