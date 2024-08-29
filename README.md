@@ -11,6 +11,16 @@ This tool helps classify drugs based on patient attributes.
 
 This Flask application predicts drug classification based on user input, such as age, sex, blood pressure, cholesterol levels, and sodium-to-potassium ratio. The prediction is made using a Logistic Regression model.
 
+## Dataset
+
+The dataset used for training the model is available on Kaggle: [Drug Classification Dataset](https://www.kaggle.com/datasets/prathamtripathi/drug-classification).
+
+### Drug Information
+
+- **Drug x** and **Drug y**: Prescribed based on the potassium ratio in the blood.
+- **Drug c**: Used for patients with low blood pressure.
+- **Drug a** and **Drug b**: Prescribed for high blood pressure. Drug a is for patients under 50 years old, while Drug b is for those over 50 years old.
+
 ## Features
 
 - **Input Fields**: Age, Sex, BP, Cholesterol, Na_to_K
