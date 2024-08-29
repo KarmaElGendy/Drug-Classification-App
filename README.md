@@ -28,30 +28,13 @@ The dataset used for training the model is available on Kaggle: [Drug Classifica
 
 ## Project Structure
 
-Drug-Classification-App/
-
-├── images/
-
-│   └── Prediction.png
-
-├── static/
-│   └── styles.css
-
-├── templates/
-
-│   ├── index.html
-
-│   └── result.html
-
-├── app.py
-
-├── feature_coefficients.pkl
-
-├── model.pkl
-
-├── README.md
-
-└── requirements.txt
+images/ contains Prediction.png.
+static/ contains styles.css.
+templates/ contains index.html and result.html.
+app.py is your Flask application.
+feature_coefficients.pkl and model.pkl are your model files.
+README.md contains the documentation.
+requirements.txt lists the required Python packages.
 
 
 ## Usage
